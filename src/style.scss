@@ -1,0 +1,90 @@
+.formContainer{
+    background-color: rgb(181, 130, 240);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .formWrapper{
+        background-color: white;
+        padding: 20px 60px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items:center;
+
+        .logo{
+            display: flex;
+        }
+        .logo1{
+            color: rgb(112, 17, 189);
+            font-weight: bold;
+            font-size: large;
+            display:flex;
+            padding-right: 5px;
+        }
+
+        .logo2{
+            color: rgb(21, 138, 50);
+            font-weight: bold;
+            font-size: large;
+            display:flex;
+        }
+
+        .title{
+            padding-top: 15px;
+            color: rgb(122, 118, 118);
+            font-size: 12px;
+        }
+        form{
+            display: flex;
+            flex-direction:column;
+            gap: 15px;
+
+          
+
+            input{
+                padding: 15px;
+                border: none;
+                border-bottom: 1px solid #afafaf;
+                
+            }
+            
+            label{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #979595;
+                font-size: 12px;
+                cursor: pointer;
+
+                img{
+                    padding-top: 5px;
+                    width: 25px;
+                    
+                }
+            }
+            
+
+            button{
+                background-color:rgb(95, 95, 251);
+                color: aliceblue;
+                border: none;
+                width: 80px;
+                height: 25px;
+                border-radius: 10px;
+                font-weight: bold;
+                cursor: pointer; 
+                
+            }
+
+            
+        }
+        p{
+            font-size: small;
+            color: rgb(100, 97, 97);
+        }
+        
+    }
+}
